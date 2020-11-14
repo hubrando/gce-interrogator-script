@@ -128,4 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+README.md.backup
 project_info_output.txt
