@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ACCOUNT=$USER@google.com
-PROJECT=707954369823
-BUCKET=gce-scripts
+ACCOUNT=$USER@msu.edu
+PROJECT=msu-spartan-289723
+BUCKET=msu-spartan-gce-scripts
 gcloud config set account $ACCOUNT
 gcloud config set project $PROJECT
 gsutil cp gee.sh gs://$BUCKET/gee.sh
